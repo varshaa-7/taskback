@@ -9,7 +9,7 @@ const PORT = 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://abmediaa.netlify.app/', 
+  origin: 'https://abmediaa.netlify.app', 
 }));
 app.use(express.json());
 
